@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>ورود به پنل کاربری</h2>
+      <div class="input-container">
+        <i class="fa fa-user icon"></i>
+        <input
+          id="user"
+          class="input-field"
+          type="text"
+          placeholder="نام کاربری"
+        /><br />
+      </div>
+      <span class="userSpan" id="nesUserLabel">* الزامی</span><br />
+      <div class="input-container">
+        <i class="fa fa-key icon"></i>
+        <input
+          id="pass"
+          class="input-field"
+          type="password"
+          placeholder="رمز ورود"
+        /><br />
+      </div>
+      <span class="passSpan" id="nesPassLabel">* الزامی</span><br />
+
+      <button type="submit" class="btn" id="button">ورود</button>
+      <div class="signUp">
+        <p>حساب کاربری ندارید؟ <a href="">ثبت نام</a></p>
+      </div>
+    </div>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
